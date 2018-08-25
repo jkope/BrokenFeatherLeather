@@ -2,9 +2,13 @@
     box-sizing: border-box;
     /* border: 1px solid red; */
     margin: 0px;
+    /* padding: 0px; */
 }
 header{
     text-align: center;
+}
+h1 {
+    font-size: 60px;
 }
 #search{
     border-radius: 10px;
@@ -16,10 +20,21 @@ header{
     color: darkgray;
     background-color: rgb(65, 62, 62)
 }
+nav {
+    padding: 10px;
+}
 body {
     font-family: helvetica neue,Helvetica,Arial,sans-serif;
     color: black;
     background-color: lightgrey;
+}
+.text {
+    padding: 10px;
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    font-size: 18px;
+    margin: 50px;
 }
 
 ul {
@@ -59,10 +74,11 @@ li{
     float:bottom;
 }
 #footer{
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0%;
     text-align: center;
     padding-bottom: 20px;
+    z-index: 1;
 }
  
