@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid red
+}
+body {
+    font-family: helvetica neue,Helvetica,Arial,sans-serif;
+    color: black;
+    background-color: lightgrey;
+    margin: 0px;
+
+}
+
+ul {
+    font-size: large;
+    font-variant-caps: all-small-caps;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+} 
+
+ p {
+   border-style: dashed;
+ }
+ .center {
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    font-size: 18px;
+ }
+ .container {
+     width: 20vw;
+     height: 20vh;
+ }
+ .bgColor{
+     background-color: blue
+ }
+.right {
+     float: right;
+ }  
+ .blkfnt{
+     color: black;
+ }
+ .white{
+     color: white;
+ }
+.bottom{
+    float:bottom;
+}
+#footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+ 
